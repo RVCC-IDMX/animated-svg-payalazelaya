@@ -1,4 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
-    padding-block-start: 3em;
+    padding-block-start: 4em;
+}
+
+#trees {
+    animation: trees 2s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes trees {
+    25% {
+        transform: rotateZ(-1deg);
+    }
+    50% {
+        transform: translate(2%);
+        
+    }
+    75% {
+        transform: rotateZ(1deg);
+    }
+    100% {
+        transform: translate(-2%);
+    }
 }
