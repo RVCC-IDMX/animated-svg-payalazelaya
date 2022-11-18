@@ -30,3 +30,24 @@ body {
         transform: translate(-1%);
     }
 }
+
+#stars {
+    animation: stars 2s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes stars {
+    25% {
+        transform: rotateX(10deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotateX(-10deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
