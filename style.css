@@ -11,6 +11,7 @@ body {
 
 #trees {
     animation: trees 2s ease infinite;
+    animation-direction: alternate;
     transform-origin: center;
     transform-box: fill-box;
 }
@@ -33,6 +34,7 @@ body {
 
 #stars {
     animation: stars 2s ease infinite;
+    animation-direction: alternate;
     transform-origin: center;
     transform-box: fill-box;
 }
